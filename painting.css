@@ -1,0 +1,65 @@
+@import 'reset.css';
+
+body {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+.canvas {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px gray;
+}
+
+.controls {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls .controls_btns {
+    margin-bottom: 30px;
+}
+
+.controls_btns button{
+    all: unset;
+    cursor: pointer;
+    background-color: white;
+    padding: 3px 5px;
+    width: 50px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px gray;
+    border: 1px solid black;
+    color: rgb(156, 151, 151);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.controls_btns button:active {
+    transform: scale(0.89);
+}
+
+.controls .controls_colors {
+    display: flex;
+}
+
+.controls_colors .controls_eachColors {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 4px 6px gray;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 0 3px;
+}
+
+.controls .controls_range {
+    margin-bottom: 30px;
+}
